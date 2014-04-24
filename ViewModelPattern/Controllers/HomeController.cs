@@ -1,9 +1,9 @@
 ﻿using System.Web.Mvc;
 using AutoMapper;
-using PatternViewModel.Models;
-using PatternViewModel.ViewModels;
+using ViewModelPattern.Models;
+using ViewModelPattern.ViewModels;
 
-namespace PatternViewModel.Controllers
+namespace ViewModelPattern.Controllers
 {
     public class HomeController : Controller
     {

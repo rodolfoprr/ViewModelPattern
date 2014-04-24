@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace PatternViewModel
+namespace ViewModelPattern
 {
     public class MvcApplication : HttpApplication
     {

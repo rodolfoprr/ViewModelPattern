@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PatternViewModel.ViewModels
+namespace ViewModelPattern.ViewModels
 {
     public class AutenticacaoViewModel
     {

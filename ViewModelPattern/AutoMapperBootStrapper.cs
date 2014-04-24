@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using PatternViewModel.Models;
-using PatternViewModel.ViewModels;
+using ViewModelPattern.Models;
+using ViewModelPattern.ViewModels;
 
-namespace PatternViewModel
+namespace ViewModelPattern
 {
     public class AutoMapperBootStrapper
     {

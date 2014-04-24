@@ -1,5 +1,5 @@
 ﻿
-namespace PatternViewModel.Models
+namespace ViewModelPattern.Models
 {
     public class Usuario
     {
