@@ -1,0 +1,26 @@
+﻿@model PatternViewModel.ViewModels.AlteracaoSenhaViewModel
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Alteração de senha</title>
+    </head>
+    <body>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.LabelFor(model => model.Senha)
+            @Html.PasswordFor(model => model.Senha)
+
+            @Html.LabelFor(model => model.NovaSenha)
+            @Html.PasswordFor(model => model.NovaSenha)
+
+            @Html.LabelFor(model => model.NovaSenhaConfirmacao)
+            @Html.PasswordFor(model => model.NovaSenhaConfirmacao)
+
+            <input type="submit" value="Alterar senha" />
+        }
+    </body>
+</html>

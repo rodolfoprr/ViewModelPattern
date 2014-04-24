@@ -1,0 +1,26 @@
+﻿@model PatternViewModel.ViewModels.AutenticacaoViewModel
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Autenticação</title>
+    </head>
+    <body>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.LabelFor(model => model.Email)
+            @Html.EditorFor(model => model.Email)
+
+            @Html.LabelFor(model => model.Senha)
+            @Html.PasswordFor(model => model.Senha)
+
+            @Html.LabelFor(model => model.ManterConectado)
+            @Html.EditorFor(model => model.ManterConectado)
+
+            <input type="submit" value="Autenticar" />
+        }
+    </body>
+</html>
